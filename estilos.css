@@ -137,7 +137,7 @@ ul ul li {
   text-align:right;
 }
 
-.idiomas, .intereses {
+.otros {
   max-width: 300px;
   font-style: italic;
   font-size: 18px;
@@ -145,6 +145,7 @@ ul ul li {
   margin-top: 20px;
   padding-top: 10px;
   border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc; 
 }
 
 /* PIE DE PÁGINA */
