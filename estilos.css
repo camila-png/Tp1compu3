@@ -1,7 +1,7 @@
 @charset "utf-8";
 /*css document*/
 
-/* ---- GENERAL ---- */
+/* GENERAL */
 body {
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 20px;
@@ -23,7 +23,7 @@ body {
   flex-direction: column;
 }
 
-/* ---- ENCABEZADO ---- */
+/* ENCABEZADO */
 .encabezado-contacto {
   display: flex;
   justify-content: space-between;
@@ -47,7 +47,7 @@ body {
   height: 20px;
 }
 
-/* ---- PRINCIPAL - COLUMNA IZQUIERDA ---- */
+/* PRINCIPAL - COLUMNA IZQUIERDA */
 .principal {
   display: flex;
   flex-direction: row;
@@ -112,7 +112,7 @@ ul ul li {
   color: #464c85;
 }
 
-/*-------COLUMNA DERECHA----------*/
+/* COLUMNA DERECHA */
 .derecha {
   width: 40%;
   display: flex;
@@ -147,7 +147,7 @@ ul ul li {
   border-top: 1px solid #ccc;
 }
 
-/* ---- PIE DE PÁGINA ---- */
+/* PIE DE PÁGINA */
 .pie {
   text-align: center;
   font-style: italic;
