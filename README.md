@@ -4,7 +4,7 @@ Este proyecto consiste en la creación de un **Currículum Vitae** utilizando **
 
   Herramientas utilizadas
 
-- Editor de código: Dreamweaver Visual
-- Lenguajes: HTML5 y CSS
-- GitHub Pages para la publicación online
+   Editor de código: Dreamweaver Visual
+   Lenguajes: HTML5 y CSS
+   GitHub Pages para la publicación online
 
