@@ -1,31 +1,34 @@
 @charset "utf-8";
 /*css document*/
 
+/* ---- GENERAL ---- */
 body {
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 20px;
   background-color: #a5b0d3;
   padding: 20px;
-  
+  background-image:url(img/fondo.jpg);
+  background-size: 1920px 911px;
+  background-position: center;
 }
 
 .cvcontainer {
   max-width: 1000px;
   margin: 40px auto;
   background-color: white;
-  padding: 90px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 60px 90px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
   border-radius: 12px;
   display: flex;
   flex-direction: column;
 }
 
+/* ---- ENCABEZADO ---- */
 .encabezado-contacto {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 40px;
-  width: 100%;
   font-size: 18px;
   font-weight: bold;
   color: #313877;
@@ -33,8 +36,18 @@ body {
   padding-bottom: 10px;
 }
 
+.encabezado-contacto p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
 
-/*------COLUMNA IZQUIERDA------*/
+.encabezado-contacto img {
+  width: 20px;
+  height: 20px;
+}
+
+/* ---- PRINCIPAL - COLUMNA IZQUIERDA ---- */
 .principal {
   display: flex;
   flex-direction: row;
@@ -44,7 +57,6 @@ body {
 
 .izquierda {
   width: 60%;
-  padding-right: 30px;
 }
 
 .nombre {
@@ -52,105 +64,96 @@ body {
   font-weight: bolder;
   color: #313877;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  margin-bottom: 0;
+  margin-bottom: 5px;
 }
 
 .profesion {
   font-size: 18px;
   font-style: italic;
   color: #5a5a5a;
-  margin-top: 5px;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
   border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
 }
 
 .titulos {
-  font-size: 30px;
+  font-size: 28px;
   color: #313877;
   margin: 40px 0 10px;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-top: 20px;
 }
 
 ul {
   list-style: none;
   padding-left: 0;
-  margin-bottom: 20px;
-  margin-top: 5px;
+  margin: 5px 0 20px;
+  color: #333;
 }
 
-.pie {
-  text-align: center;
-  color: #555;
-  margin-top: 40px;
-  padding-top: 20px;
-  border-top: 1px solid #ccc;
-  font-size: 16px;
-  
-}
-
-ul ul li {
-  font-style: italic;
-  font-size: 17px;
-  color: #3d3d3d;
-  margin-top: 4px;
-  padding-left: 10px;
+ul li {
+  margin-bottom: 6px;
 }
 
 ul ul {
-  list-style-type: none;
   padding-left: 20px;
   font-style: italic;
   font-size: 17px;
   color: #3d3d3d;
+  margin-top: 5px;
 }
 
-.temas{
+ul ul li {
+  margin: 4px 0;
+}
+
+.temas {
   font-size: 17px;
   color: #464c85;
 }
 
 /*-------COLUMNA DERECHA----------*/
-
 .derecha {
   width: 40%;
   display: flex;
-  flex-direction: column; 
-  justify-content: flex-start; 
-  align-items: flex-start; 
+  flex-direction: column;
   margin-top: 30px;
 }
 
 .foto img {
-  width: 300px;
-  height: auto;
+  width: 100%;
+  max-width: 300px;
   border-radius: 10px;
   display: block;
-  margin: 0 auto;
-  border: 7px solid #a5b0d3;
+  border: 17px double #a5b0d3;
 }
 
 .sobre-mi {
-  margin-top: 15px;
+  margin-top: 20px;
   font-size: 18px;
   font-style: italic;
   color: #767d94;
-  text-align:center;
   max-width: 300px;
+  text-align:right;
 }
 
-.idiomas{
-  width: 100%;
-  margin-top: 10px;
-  text-align: center;
+.idiomas, .intereses {
   max-width: 300px;
   font-style: italic;
-  font-size:18px;
+  font-size: 18px;
   color: #767d94;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
 }
- 
 
-
-
-
-
+/* ---- PIE DE PÁGINA ---- */
+.pie {
+  text-align: center;
+  font-style: italic;
+  color: #555;
+  margin-top: 60px;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+  font-size: 16px;
+}
