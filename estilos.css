@@ -91,20 +91,12 @@ ul {
   color: #333;
 }
 
-ul li {
-  margin-bottom: 6px;
-}
-
 ul ul {
   padding-left: 20px;
   font-style: italic;
   font-size: 17px;
   color: #3d3d3d;
   margin-top: 5px;
-}
-
-ul ul li {
-  margin: 4px 0;
 }
 
 .temas {
