@@ -24,6 +24,10 @@ body {
 }
 
 /* ENCABEZADO */
+.encabezado-contacto p:hover {
+  color: #a5b0d3;
+  cursor: pointer;
+}
 .encabezado-contacto {
   display: flex;
   justify-content: space-between;
@@ -48,6 +52,10 @@ body {
 }
 
 /* PRINCIPAL - COLUMNA IZQUIERDA */
+.titulos:hover {
+  color:  #a5b0d3;
+  cursor: pointer;
+}
 .principal {
   display: flex;
   flex-direction: row;
