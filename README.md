@@ -1,12 +1,15 @@
-  Trabajo Práctico 1 – Computación III
+# Tp1compu3
 
-Este proyecto consiste en la creación de un **Currículum Vitae** utilizando **HTML5** y **CSS3**, aplicando etiquetas semánticas y propiedades de diseño con Flexbox.
+# Trabajo Práctico 1: Estructura HTML5
 
-  Herramientas utilizadas
-  
-   -Editor de código: Dreamweaver Visual
-   
-   -Lenguajes: HTML5 y CSS
-   
-   -GitHub Pages para la publicación online
+Descripción:
+
+Este trabajo consiste en la creación de una página web utilizando una estructura semántica con HTML5 y estilos personalizados con CSS3. Se diseñó un currículum vitae (CV) digital, con secciones como información personal, formación, experiencia y proyectos destacados.
+
+Resolución de pantalla utilizada:  
+  Ancho: 1920px 
+  Alto: 911px
+
+Editor de código utilizado:  
+  *Dream Visual* (Visual Dream Code)
 
